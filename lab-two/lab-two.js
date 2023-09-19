@@ -84,11 +84,9 @@ function getDayOfTheWeek (year, month, day) {
             break;
     }
 
-    const leapYearResult = isLeapYear(year); // leapyear true or false
-
             
     
-    if ((leapYearResult == true) && (month == "january" || month == "february")) {
+    if (isLeapYear(year) && (month == "january" || month == "february")) {
         monthCodeCounter -= 1; 
     } 
 
