@@ -44,7 +44,7 @@ function firstTwoDigitsOfYearFnc (year) {
     return (
         Math.floor(year / 100)
         );
-    }
+}
 
 function isLeapYear(year) {
     if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
@@ -54,7 +54,6 @@ function isLeapYear(year) {
     } else {
         return false;
     }
-
 }
     
 function getDayOfTheWeek (year, month, day) {
@@ -87,13 +86,9 @@ function getDayOfTheWeek (year, month, day) {
             break;
     }
 
-            
-    
     if (isLeapYear(year) && (month == "january" || month == "february")) {
         monthCodeCounter -= 1; 
     } 
-
-
 
     function calculateDay() { // Calculate the day
         return ( 
