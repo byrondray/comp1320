@@ -17,4 +17,4 @@ const month = monthToLowerCase(monthUpperCase);
 
 console.log(getDayOfTheWeek(year, month, day));
 
-makeCalendar();
+// makeCalendar();
