@@ -121,7 +121,6 @@ const daysInMonth = [
     { month: 'december', days: 31, number: 12 },
 ];
 
-
 function printMonthDetails(monthInfo, year) {
     for (let day = 1; day <= monthInfo.days; day++) {
         const date = getDayOfTheWeek(year, monthInfo.month, day);
